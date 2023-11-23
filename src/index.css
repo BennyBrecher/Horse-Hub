@@ -1,0 +1,55 @@
+h1 {
+    color: blue;
+}
+#Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line if you want to vertically center the nav */
+    flex-wrap: wrap;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px 0; /* Top and bottom padding only */
+    margin: 20px auto; /* Center the nav bar with automatic horizontal margins */
+    width: max-content; /* Make the nav bar as wide as its content */
+    background: #FFF; /* Assuming you want a white background; change as needed */
+}
+
+#Nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* This will create space between the list items */
+}
+
+#Nav li {
+    /* Reduced or remove margin for snug fit, as 'gap' in #Nav ul takes care of spacing */
+    margin: 0; /* Adjust if you need more space between the items */
+}
+
+#Nav .button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none; /* No border for individual buttons */
+    cursor: pointer;
+}
+
+#Nav .button:hover {
+    background-color: #e2e2e2;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: auto;
+    width: 99%;
+    display: block;
+    image-rendering: optimizeQuality;
+}
