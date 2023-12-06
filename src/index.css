@@ -1,17 +1,18 @@
 h1 {
     color: blue;
 }
+
 #Nav {
     display: flex;
     justify-content: center;
-    align-items: center; /* Add this line if you want to vertically center the nav */
+    align-items: center;
     flex-wrap: wrap;
     border: 2px solid orange;
     border-radius: 10px;
-    padding: 10px 0; /* Top and bottom padding only */
-    margin: 20px auto; /* Center the nav bar with automatic horizontal margins */
-    width: max-content; /* Make the nav bar as wide as its content */
-    background: #FFF; /* Assuming you want a white background; change as needed */
+    padding: 10px 0;
+    margin: 20px auto;
+    width: max-content;
+    background: #FFF;
 }
 
 #Nav ul {
@@ -20,12 +21,11 @@ h1 {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 20px; /* This will create space between the list items */
+    gap: 20px;
 }
 
 #Nav li {
-    /* Reduced or remove margin for snug fit, as 'gap' in #Nav ul takes care of spacing */
-    margin: 0; /* Adjust if you need more space between the items */
+    margin: 0;
 }
 
 #Nav .button {
@@ -35,21 +35,61 @@ h1 {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    border: none; /* No border for individual buttons */
+    border: none;
     cursor: pointer;
 }
 
 #Nav .button:hover {
     background-color: #e2e2e2;
 }
+
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
-img {
+.banner img {
     height: auto;
-    width: 99%;
+    width: 100%;
     display: block;
     image-rendering: optimizeQuality;
 }
+
+.stable-search {
+    border: 1px solid black;
+    padding: 25px;
+    width: 50%;
+    position: absolute;
+    top: calc(28% - 22px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.discover {
+    height: 2000px;
+    background-color: darkgreen;
+    margin-top: 0;
+}
+
+.contact-us {
+    height: 1000px;
+    background-color: aqua;
+}
+.top-selling h2 {
+    color: navy;
+    font-size: 24px;
+}
+
+.fastest-horses h2 {
+    color: navy;
+    font-size: 24px;
+}
+
