@@ -1,5 +1,8 @@
-h1 {
-    color: chartreuse;
+h1{
+    color: slategray;
+}
+body{
+    background-color: royalblue;
 }
 #Nav {
     display: flex;
