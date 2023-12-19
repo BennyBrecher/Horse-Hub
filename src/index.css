@@ -1,5 +1,5 @@
 h1 {
-    color: blue;
+    color: black;
 }
 
 #Nav {
@@ -75,13 +75,13 @@ h1 {
 
 .discover {
     height: 2000px;
-    background-color: darkgreen;
+    background-color: darkgray;
     margin-top: 0;
 }
 
 .contact-us {
     height: 1000px;
-    background-color: aqua;
+    background-color: gainsboro;
 }
 .top-selling h2 {
     color: navy;
@@ -92,4 +92,6 @@ h1 {
     color: navy;
     font-size: 24px;
 }
-
+body{
+    background-color: hsl(0, 0%, 50%);
+}
