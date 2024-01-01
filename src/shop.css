@@ -1,5 +1,16 @@
+body{
+    margin: 0;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tippy-top {
+    text-align: center;
+
+}
 h1 {
-    color: #d4af37; /* A gold-like shade for an upscale feel */
+    color: #d4af37;
     font-family: 'Playfair Display', serif;
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -9,7 +20,6 @@ h1 {
     letter-spacing: 0.05em;
     font-weight: 700;
 }
-
 
 #Nav {
     display: flex;
@@ -23,8 +33,6 @@ h1 {
     width: max-content;
     background: #FFF;
 }
-
-
 #Nav ul {
     display: flex;
     justify-content: center;
@@ -93,31 +101,120 @@ h1 {
     box-shadow: 4px 4px 8px #2c1f15, -4px -4px 8px #9c7e60;
 }
 
-/*#tippy-top{
-    background-color: gray;
-    height: 250px;
-}*/
+#equestore-top, #equestore-middle {
+    background-size: contain;
+    background-repeat:repeat-y;
+    background-position: center;
+    width: 100%;
+    height: 300vh; /**/
+    gap: 20px;
+    padding: 20px;
+}
 
 #equestore-top {
-    background-color: transparent;
-    height: 1000px;
-    background-image: url("Pictures/shopsoon2.png");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;/**/
+    background-image: url("Pictures/newshopbanner.jpeg");
 }
 
 #equestore-middle {
-    background-image: url("Pictures/shopsoon1.png");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+    background-image: url("Pictures/newshopbanner2.JPEG");
 }
 
-body{
-    background-color: gray;
-/* background-image: url("Pictures/shopsoon2.png");
-   background-size: cover;
-   width: 100%;
-   height: 100vh;*/
+.row-title {
+    color: #d4af37;
+    font-family: 'Playfair Display', serif;;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* */
+    letter-spacing: 0.05em;
+    width: 100%;
+    padding-left: 20px;
+    margin: 30px 0 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    margin: auto;
+    flex: 0 0 auto;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.product-item img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    margin: 10px 0 5px;
+}
+
+.product-item p {
+    margin: 0 0 10px;
+}
+
+.product-item button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.product-item button:hover {
+    background-color: #45a049;
+}
+
+
+footer{
+    height: 1200px;
+    background-color: gainsboro;
+    margin-top: -835px;
+    display: flex;
+    flex-direction: row;
+    padding: 15%;
+    text-align: center;
+}
+
+h4{
+    color: slategray;
+    font-size: 75px;
+    width: auto;
+
+}
+.contact-us ul {
+    list-style-position: inside;
+}
+.footer-slogan h2 {
+    color: white;
+    font-size: 75px;
+    max-width: 50%;
 }

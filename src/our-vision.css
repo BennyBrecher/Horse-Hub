@@ -1,6 +1,16 @@
 h1{
     color: navy;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-weight: 700;
 }
+
+
 #Nav {
     display: flex;
     justify-content: center;
@@ -42,10 +52,11 @@ h1{
     background-color: #e2e2e2;
 }
 .top{
-    height: 1500px;
+    height: 1600px;
 }
 blockquote{
     font-size: 100px;
+    font-family: cursive;
     color: navy;
     margin: 50px;
 }
@@ -56,6 +67,7 @@ blockquote{
     color: hsla(60, 100%, 25%, 1); /* Olive Green */
 }
 #quote4{
+    font-family: 'Open Sans', sans-serif;
     font-size: 65px;
     padding: 15%;
 }
@@ -69,29 +81,60 @@ blockquote{
     perspective: 1000px; /* Perspective for 3D effect */
     margin-right: 50px;
 }
-#airlift{
-    height: 650px;
+#secondpic{
     float: right;
+    height: 450px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    border: 5px solid #333; /* A simple border to represent a frame */
+    transform: translateZ(30px); /* For 3D depth effect */
+    perspective: 1000px; /* Perspective for 3D effect */
+    transform: translateY(-50px);
 }
+
 .vision{
     height: 2000px;
     background-color: lavender;
-    margin-top: 0;
+    margin-top: -100px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 body {
     background-color: darkgray;
 }
 h2{
     color: midnightblue;
+    text-align: center;
+    font-size: 100px;
+}
+#wet{
+    width: 100%;
+}
+.image-overlay-container {
+    position: relative;
+    text-align: center;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 2em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .contact-us {
-    height: 1000px;
+    height: 1100px;
     background-color: gainsboro;
+    margin-top: -100px;
 }
 h3{
     color: slategray;
     text-align: center;
     padding: 15%;
+    font-size: 75px;
 }
 .contact-us ul {
     list-style-position: inside; /*so the dots follow the list alignment*/

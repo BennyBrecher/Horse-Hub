@@ -7,36 +7,405 @@
 </head>
 <body>
 <div id="tippy-top">
-<h1>WELCOME TO THE <br> EQUESTORE</h1>
+    <h1>WELCOME TO THE <br> EQUESTORE</h1>
 
-<nav id="Nav">
-    <ul>
-        <li><a href="index.html" class="button">Home</a></li>
-        <li><a href="shop.html" class="button">Shop</a></li>
-        <li><a href="community.html" class="button">Community</a></li>
-        <li><a href="rent-a-pony.html" class="button">Rent A Pony</a></li>
-        <li><a href="stables.html" class="button">Stables Near Me</a></li>
-        <li><a href="our-vision.html" class="button">Our Vision</a></li>
-        <li><a href="tracker.html" class="button">Live Horse Tracker</a></li>
-        <li><a href="contact.html" class="button">Contact Us</a></li>
-    </ul>
-</nav>
+    <nav id="Nav">
+        <ul>
+            <li><a href="index.html" class="button">Home</a></li>
+            <li><a href="shop.html" class="button">Shop</a></li>
+            <li><a href="community.html" class="button">Community</a></li>
+            <li><a href="rent-a-pony.html" class="button">Rent A Pony</a></li>
+            <li><a href="stables.html" class="button">Stables Near Me</a></li>
+            <li><a href="our-vision.html" class="button">Our Vision</a></li>
+            <li><a href="tracker.html" class="button">Live Horse Tracker</a></li>
+            <li><a href="contact.html" class="button">Contact Us</a></li>
+        </ul>
+    </nav>
 
-<div class="search-bar">
-    <input type="text" placeholder="Search...">
-    <button>&#128269;</button>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="search()">&#128269</button>
+    </div>
+
+    <script> /*This isnt udemy just a random idea i had*/
+        function search() {
+            var inputValue = document.getElementById('searchInput').value;
+            if (inputValue.toLowerCase() === 'cengage') {
+                window.location.href = 'https://youtu.be/KCzwyFHSMdY?feature=shared';
+            } else {
+                alert("Try Again.");
+            }
+        }
+    </script>
 </div>
-<br>
+    <br>
 </div>
 
-<div id = "equestore-top">
-    <!--<img src="Pictures/shopsoon2.png">-->
-</div>
+<div id="equestore-top">
 
-<div id = "equestore-middle">
-<!--<img src="Pictures/shopsoon1.png">-->
-</div>
+    <div class="parent-container">
+        <h2 class="row-title">Top Thoroughbred Horses</h2>
+        <div class="product-container">
+            <div class="product-item">
+                <img src="Pictures/Thoroughbreds/Thoroughbred1.jpeg">
+                <h3>Majestic Runner</h3>
+                <p>Agile 4-year-old racer with a champion pedigree</p>
+                <p>Price: $4,500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Thoroughbreds/Thoroughbred2.webp">
+                <h3>Elegant Stride</h3>
+                <p>Graceful 5-year-old mare</p>
+                <p>Price: $4,750</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Thoroughbreds/Thoroughbred3.jpeg">
+                <h3>Storm Chaser</h3>
+                <p>Promising 3-year-old bay, eventing candidate</p>
+                <p>Price: $5,135</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Thoroughbreds/Thoroughbred4.jpeg">
+                <h3>Gentleman’s Choice</h3>
+                <p>Steady 7-year-old, ideal trail companion</p>
+                <p>Price: $5,310</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Thoroughbreds/Thoroughbred5.jpeg">
+                <h3>Twilight Blaze</h3>
+                <p>Energetic 2-year-old black filly, racing potential</p>
+                <p>Price: $5,520</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/horse-fly.gif">
+                <h3>Flying Horse</h3>
+                <p>Bro will straight up bring you anywhere he's chill like that</p>
+                <p>Price: $5,520</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
 
+    <div class="parent-container">
+        <h2 class="row-title">Top American Quarter Horses</h2>
+        <div class="product-container">
+            <div class="product-item">
+                <img src="Pictures/Quarterhorses/Quarter1.jpeg">
+                <h3>Swift Shadow</h3>
+                <p>Speedy 3-year-old with impressive agility</p>
+                <p>Price: $4,800</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Quarterhorses/Quarter2.jpeg">
+                <h3>Gentle Breeze</h3>
+                <p>Calming presence, 5-year-old family horse</p>
+                <p>Price: $4,200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Quarterhorses/Quarter3.jpeg">
+                <h3>Desert Storm</h3>
+                <p>Robust 6-year-old with a daring spirit</p>
+                <p>Price: $5,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Quarterhorses/Quarter4.jpeg">
+                <h3>Moonlight Dancer</h3>
+                <p>Elegant 4-year-old with graceful movements</p>
+                <p>Price: $4,700</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Quarterhorses/Quarter5.jpeg">
+                <h3>Sunrise Gallop</h3>
+                <p>Vibrant 2-year-old, perfect for racing</p>
+                <p>Price: $5,200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Quarterhorses/Quarter6.jpeg">
+                <h3>Twilight Trotter</h3>
+                <p>Reliable 7-year-old, great for beginners</p>
+                <p>Price: $4,600</p>
+                <button>Add to Cart</button>
+            </div>
+    </div>
+    </div>
+
+        <div class="parent-container">
+            <h2 class="row-title">Arabian Horses</h2>
+            <div class="product-container">
+            <div class="product-item">
+                <img src="Pictures/Arabian/Arabian1.jpeg">
+                <h3>Desert Jewel</h3>
+                <p>Graceful beauty with a spirited trot and a lineage of champions.</p>
+                <p>Price: $12,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Arabian/Arabian2.jpeg">
+                <h3>Moonlit Mirage</h3>
+                <p>Stunning endurance racer known for agility and speed.</p>
+                <p>Price: $15,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Arabian/Arabian3.jpeg">
+                <h3>Sand Sultan</h3>
+                <p>Impressive show horse with a gentle demeanor, perfect for dressage.</p>
+                <p>Price: $18,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Arabian/Arabian4.jpeg">
+                <h3>Echoes of Oasis</h3>
+                <p>Young and energetic, with a striking gait that catches every eye.</p>
+                <p>Price: $9,500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Arabian/Arabian5.jpeg">
+                <h3>Sahara's Secret</h3>
+                <p>A mare with a mysterious allure and a rich chestnut coat.</p>
+                <p>Price: $11,250</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Arabian/Arabian6.jpeg">
+                <h3>Whispering Dunes</h3>
+                <p>A gentle companion, ideal for leisure rides and therapy work.</p>
+                <p>Price: $8,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="Pictures/Arabian/Arabian7.jpeg">
+                <h3>Zephyr's Echo</h3>
+                <p>With a lineage of racing legends, poised to become a track star.</p>
+                <p>Price: $16,500</p>
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+        <div id="equestore-middle">
+
+    <div class="parent-container">
+        <h2 class="row-title">Luxury Saddles</h2>
+        <div class="product-container">
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle1.jpeg">
+                <h3>Trail Comfort</h3>
+                <p>For lengthy trails.</p>
+                <p>Price: $350</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle2.jpeg">
+                <h3>Dressage Elegance</h3>
+                <p>Sleek and stylish.</p>
+                <p>Price: $450</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle3.jpeg">
+                <h3>Ranch Hand</h3>
+                <p>Tough and reliable.</p>
+                <p>Price: $400</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle4.jpeg">
+                <h3>Western Glory</h3>
+                <p>Authentic detail.</p>
+                <p>Price: $600</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle5.jpeg">
+                <h3>Pro Jumper</h3>
+                <p>For high performance.</p>
+                <p>Price: $550</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle6.jpeg">
+                <h3>Endurance Plus</h3>
+                <p>Extra padded comfort.</p>
+                <p>Price: $500</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle7.jpeg">
+                <h3>Little Rider</h3>
+                <p>Perfect pony fit.</p>
+                <p>Price: $300</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="Pictures/Saddles/saddle8.jpeg">
+                <h3>Cross-Country Pro</h3>
+                <p>Ready for challenges.</p>
+                <p>Price: $650</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+            <div class="parent-container">
+                <h2 class="row-title">Quality Spurs</h2>
+                <div class="product-container">
+                    <div class="product-item">
+                        <img src="Pictures/Spurs/spurs1.jpeg">
+                        <h3>Classic Roper</h3>
+                        <p>Traditional design with a gentle touch, perfect for training.</p>
+                        <p>Price: $35</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="Pictures/Spurs/spurs2.jpeg">
+                        <h3>Golden Dressage</h3>
+                        <p>Elegant golden finish for the sophisticated rider.</p>
+                        <p>Price: $45</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="Pictures/Spurs/spurs3.jpeg">
+                        <h3>Barrel Racer</h3>
+                        <p>Designed for quick, precise cues in high-speed events.</p>
+                        <p>Price: $40</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="Pictures/Spurs/spurs4.jpeg">
+                        <h3>Slender Showman</h3>
+                        <p>Slim profile for a discreet yet effective communication.</p>
+                        <p>Price: $50</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="Pictures/Spurs/spurs5.jpeg">
+                        <h3>Western Pleasure</h3>
+                        <p>Ornate detailing for the show ring, combining style and function.</p>
+                        <p>Price: $55</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="Pictures/Spurs/spurs6.jpeg">
+                        <h3>Sharp Performer</h3>
+                        <p>Aggressive design for experienced riders demanding precision.</p>
+                        <p>Price: $60</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="Pictures/Spurs/spurs7.jpeg">
+                        <h3>Endurance Expert</h3>
+                        <p>Durable and comfortable for long-distance rides.</p>
+                        <p>Price: $65</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="parent-container">
+                <h2 class="row-title">Comfortable Helmets</h2>
+                <div class="product-container">
+                    <div class="product-item">
+                        <img src="Pictures/Helmets/helmet1.jpeg">
+                        <h3>Classic Equine</h3>
+                        <p>Time-honored style meets modern safety standards.</p>
+                        <p>Price: $99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Pictures/Helmets/helmet2.jpeg">
+                        <h3>Pro Racer</h3>
+                        <p>Advanced protection for the competitive edge.</p>
+                        <p>Price: $149</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Pictures/Helmets/helmet3.jpeg">
+                        <h3>Venture Ventilated</h3>
+                        <p>Cool and comfortable, with superior airflow design.</p>
+                        <p>Price: $129</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Pictures/Helmets/helmet4.jpeg">
+                        <h3>Trail Guardian</h3>
+                        <p>Durable for the trails, with all-day comfort.</p>
+                        <p>Price: $109</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Pictures/Helmets/helmet5.jpeg">
+                        <h3>Dressage Dream</h3>
+                        <p>Elegance and protection in a sleek, low-profile design.</p>
+                        <p>Price: $159</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Pictures/Helmets/helmet6.jpeg">
+                        <h3>Junior Jockey</h3>
+                        <p>Perfect for the younger rider, with adjustable sizing.</p>
+                        <p>Price: $89</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Pictures/Helmets/helmet7.jpeg">
+                        <h3>Endurance Elite</h3>
+                        <p>Lightweight with extended coverage for endurance rides.</p>
+                        <p>Price: $139</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                </div>
+            </div>
+
+</div>
 
 </body>
+
+<footer>
+
+    <div class="footer-slogan">
+        <h2>The One Stop Shop For All of Your Horse Related Needs</h2>
+    </div>
+
+    <h4> Contact Us
+        <ul>
+            <li>Benny Brecher</li>
+            <li>Joe Aaron</li>
+            <li>yadda yadda</li>
+            <li>yadda yadda</li>
+            <li>yadda yadda</li>
+            <li>yadda yadda</li>
+        </ul>
+    </h4>
+
+</footer>
+
+
 </html>
