@@ -1,5 +1,5 @@
 h1 {
-    color: #d4af37; /* A gold-like shade for an upscale feel */
+    color: #d4af37;
     font-family: 'Playfair Display', serif;
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -53,6 +53,7 @@ body{
     background-color: #e2e2e2;
 }
 
+
 .container {
     display: flex;
     flex-direction: column;
@@ -84,6 +85,7 @@ input {
     z-index: 10;
 }
 
+
 .discover {
     height: 2000px;
     background-color: darkgray;
@@ -94,10 +96,11 @@ input {
     color: #d4af37;
     font-family: 'Playfair Display', serif;;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(85, 61, 49, 0.8);
     letter-spacing: 0.05em;
     width: 100%;
     padding-left: 20px;
-    margin: 30px 0 10px; /* 30px top, 0 left and right, 10px bottom */
+    margin: 30px 0 10px;
     font-size: 50px;
     font-weight: bold;
 }
@@ -123,8 +126,8 @@ input {
     background-color: white;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     text-align: center;
-    margin: auto; /* Center the item in its cell */
-    flex: 0 0 auto; /* Do not grow, do not shrink, and be automatically sized by its width and height */
+    margin: auto;
+    flex: 0 0 auto;
     width: 250px;
     height: 300px;
     display: flex;
@@ -135,18 +138,18 @@ input {
 
 .product-item img {
     max-width: 100%;
-    max-height: 150px; /* Max height for images */
+    max-height: 150px;
     object-fit: contain;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 .product-item h3 {
-    margin: 10px 0 5px; /* Add bottom margin to h3 for spacing */
+    margin: 10px 0 5px;
 }
 
 .product-item p {
-    margin: 0 0 10px; /* Add bottom margin to p for spacing */
+    margin: 0 0 10px;
 }
 
 .product-item button {
@@ -162,6 +165,7 @@ input {
 .product-item button:hover {
     background-color: #45a049;
 }
+
 
 
 
@@ -198,7 +202,7 @@ input {
 }
 
 .quiz-placeholder button:hover {
-    background-color: #005f73; /* Darker shade on hover for interactive feedback */
+    background-color: #005f73;
 }
 
 

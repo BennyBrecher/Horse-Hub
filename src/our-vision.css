@@ -61,10 +61,10 @@ blockquote{
     margin: 50px;
 }
 #quote1{
-    color: hsla(0, 100%, 25%, 1); /* Burgundy */
+    color: hsla(0, 100%, 25%, 1);
 }
 #quote2{
-    color: hsla(60, 100%, 25%, 1); /* Olive Green */
+    color: hsla(60, 100%, 25%, 1);
 }
 #quote4{
     font-family: 'Open Sans', sans-serif;
@@ -75,19 +75,19 @@ blockquote{
 #good-soup {
     height: 600px;
     width: 25%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
-    border: 5px solid #333; /* A simple border to represent a frame */
-    transform: translateZ(30px); /* For 3D depth effect */
-    perspective: 1000px; /* Perspective for 3D effect */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: 5px solid #333;
+    transform: translateZ(30px);
+    perspective: 1000px;
     margin-right: 50px;
 }
 #secondpic{
     float: right;
     height: 450px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
-    border: 5px solid #333; /* A simple border to represent a frame */
-    transform: translateZ(30px); /* For 3D depth effect */
-    perspective: 1000px; /* Perspective for 3D effect */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: 5px solid #333;
+    transform: translateZ(30px);
+    perspective: 1000px;
     transform: translateY(-50px);
 }
 
@@ -137,7 +137,7 @@ h3{
     font-size: 75px;
 }
 .contact-us ul {
-    list-style-position: inside; /*so the dots follow the list alignment*/
+    list-style-position: inside;
 }
 
 
